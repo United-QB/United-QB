@@ -417,6 +417,7 @@ end
 local function tohex(x)
     x = Utilities:Ensure(x, 32)
 
+---@diagnostic disable-next-line: unbalanced-assignments
     local s, base, d = '', 16
 
     while x > 0 do
@@ -1813,7 +1814,7 @@ function CreateMenu(info)
     ---@field public Texture string Name of texture example: "default"
     ---@field public Dictionary string Name of dictionary example: "menuv"
     ---@field public Color table<string, number> Color of Menu
-    ---@field private Events table<string, fun[]> List of registered `on` events
+    ---@field private Events table<string, funs[]> List of registered `on` events
     ---@field public Items Item[] List of items
     ---@field public Trigger fun(t: Item, event: string)
     ---@field public On fun(t: Menu, event: string, func: function|Menu): string
@@ -1954,7 +1955,7 @@ local menuv_table = {
                 if not rawKey.inputTypes[inputType] then
                     rawKey.inputTypes[inputType] = true
                 end
-    
+
                 return
             end
 

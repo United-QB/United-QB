@@ -339,6 +339,7 @@ end
 local function tohex(x)
     x = Utilities:Ensure(x, 32)
 
+---@diagnostic disable-next-line: unbalanced-assignments
     local s, base, d = '', 16
 
     while x > 0 do
