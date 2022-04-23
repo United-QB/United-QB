@@ -1,0 +1,246 @@
+[submodule "resources/[standalone]/bob74_ipl"]
+	path = resources/[standalone]/bob74_ipl
+	url = git@github.com:United-QB/bob74_ipl
+[submodule "resources/[standalone]/safecracker"]
+	path = resources/[standalone]/safecracker
+	url = git@github.com:United-QB/safecracker
+[submodule "resources/[standalone]/screenshot-basic"]
+	path = resources/[standalone]/screenshot-basic
+	url = git@github.com:United-QB/screenshot-basic
+[submodule "resources/[standalone]/progressbar"]
+	path = resources/[standalone]/progressbar
+	url = git@github.com:United-QB/progressbar
+[submodule "resources/[standalone]/interact-sound"]
+	path = resources/[standalone]/interact-sound
+	url = git@github.com:United-QB/interact-sound
+[submodule "resources/[standalone]/mhacking"]
+	path = resources/[standalone]/mhacking
+	url = git@github.com:United-QB/mhacking
+[submodule "resources/[standalone]/connectqueue"]
+	path = resources/[standalone]/connectqueue
+	url = git@github.com:United-QB/connectqueue
+[submodule "resources/[standalone]/dpemotes"]
+	path = resources/[standalone]/dpemotes
+	url = git@github.com:United-QB/dpemotes
+[submodule "resources/[standalone]/PolyZone"]
+	path = resources/[standalone]/PolyZone
+	url = git@github.com:United-QB/PolyZone
+[submodule "resources/[standalone]/LegacyFuel"]
+	path = resources/[standalone]/LegacyFuel
+	url = git@github.com:United-QB/LegacyFuel
+[submodule "resources/[voice]/pma-voice"]
+	path = resources/[voice]/pma-voice
+	url = git@github.com:United-QB/pma-voice
+[submodule "resources/[voice]/qb-radio"]
+	path = resources/[voice]/qb-radio
+	url = git@github.com:United-QB/qb-radio
+[submodule "resources/[defaultmaps]/hospital_map"]
+	path = resources/[defaultmaps]/hospital_map
+	url = git@github.com:United-QB/hospital_map
+[submodule "resources/[defaultmaps]/dealer_map"]
+	path = resources/[defaultmaps]/dealer_map
+	url = git@github.com:United-QB/dealer_map
+[submodule "resources/[defaultmaps]/[prison_map]"]
+	path = resources/[defaultmaps]/[prison_map]
+	url = git@github.com:United-QB/prison_map
+[submodule "resources/[qb]/qb-core"]
+	path = resources/[qb]/qb-core
+	url = git@github.com:United-QB/qb-core
+[submodule "resources/[qb]/qb-scoreboard"]
+	path = resources/[qb]/qb-scoreboard
+	url = git@github.com:United-QB/qb-scoreboard
+[submodule "resources/[qb]/qb-adminmenu"]
+	path = resources/[qb]/qb-adminmenu
+	url = git@github.com:United-QB/qb-adminmenu
+[submodule "resources/[qb]/qb-multicharacter"]
+	path = resources/[qb]/qb-multicharacter
+	url = git@github.com:United-QB/qb-multicharacter
+[submodule "resources/[qb]/qb-target"]
+	path = resources/[qb]/qb-target
+	url = git@github.com:United-QB/qb-target
+[submodule "resources/[qb]/qb-customs"]
+	path = resources/[qb]/qb-customs
+	url = git@github.com:United-QB/qb-customs
+[submodule "resources/[qb]/qb-vehiclesales"]
+	path = resources/[qb]/qb-vehiclesales
+	url = git@github.com:United-QB/qb-vehiclesales
+[submodule "resources/[qb]/qb-vehicleshop"]
+	path = resources/[qb]/qb-vehicleshop
+	url = git@github.com:United-QB/qb-vehicleshop
+[submodule "resources/[qb]/qb-houserobbery"]
+	path = resources/[qb]/qb-houserobbery
+	url = git@github.com:United-QB/qb-houserobbery
+[submodule "resources/[qb]/qb-prison"]
+	path = resources/[qb]/qb-prison
+	url = git@github.com:United-QB/qb-prison
+[submodule "resources/[qb]/qb-atms"]
+	path = resources/[qb]/qb-atms
+	url = git@github.com:United-QB/qb-atms
+[submodule "resources/[qb]/qb-hud"]
+	path = resources/[qb]/qb-hud
+	url = git@github.com:United-QB/qb-hud
+[submodule "resources/[qb]/qb-management"]
+	path = resources/[qb]/qb-management
+	url = git@github.com:United-QB/qb-management
+[submodule "resources/[qb]/qb-weed"]
+	path = resources/[qb]/qb-weed
+	url = git@github.com:United-QB/qb-weed
+[submodule "resources/[qb]/qb-lapraces"]
+	path = resources/[qb]/qb-lapraces
+	url = git@github.com:United-QB/qb-lapraces
+[submodule "resources/[qb]/qb-inventory"]
+	path = resources/[qb]/qb-inventory
+	url = git@github.com:United-QB/qb-inventory
+[submodule "resources/[qb]/qb-houses"]
+	path = resources/[qb]/qb-houses
+	url = git@github.com:United-QB/qb-houses
+[submodule "resources/[qb]/qb-garages"]
+	path = resources/[qb]/qb-garages
+	url = git@github.com:United-QB/qb-garages
+[submodule "resources/[qb]/qb-ambulancejob"]
+	path = resources/[qb]/qb-ambulancejob
+	url = git@github.com:United-QB/qb-ambulancejob
+[submodule "resources/[qb]/qb-vehiclefailure"]
+	path = resources/[qb]/qb-vehiclefailure
+	url = git@github.com:United-QB/qb-vehiclefailure
+[submodule "resources/[qb]/qb-radialmenu"]
+	path = resources/[qb]/qb-radialmenu
+	url = git@github.com:United-QB/qb-radialmenu
+[submodule "resources/[qb]/qb-crypto"]
+	path = resources/[qb]/qb-crypto
+	url = git@github.com:United-QB/qb-crypto
+[submodule "resources/[qb]/qb-weathersync"]
+	path = resources/[qb]/qb-weathersync
+	url = git@github.com:United-QB/qb-weathersync
+[submodule "resources/[qb]/qb-policejob"]
+	path = resources/[qb]/qb-policejob
+	url = git@github.com:United-QB/qb-policejob
+[submodule "resources/[qb]/qb-traphouse"]
+	path = resources/[qb]/qb-traphouse
+	url = git@github.com:United-QB/qb-traphouse
+[submodule "resources/[qb]/qb-apartments"]
+	path = resources/[qb]/qb-apartments
+	url = git@github.com:United-QB/qb-apartments
+[submodule "resources/[qb]/qb-vehiclekeys"]
+	path = resources/[qb]/qb-vehiclekeys
+	url = git@github.com:United-QB/qb-vehiclekeys
+[submodule "resources/[qb]/qb-mechanicjob"]
+	path = resources/[qb]/qb-mechanicjob
+	url = git@github.com:United-QB/qb-mechanicjob
+[submodule "resources/[qb]/qb-phone"]
+	path = resources/[qb]/qb-phone
+	url = git@github.com:United-QB/qb-phone
+[submodule "resources/[qb]/qb-vineyard"]
+	path = resources/[qb]/qb-vineyard
+	url = git@github.com:United-QB/qb-vineyard
+[submodule "resources/[qb]/qb-weapons"]
+	path = resources/[qb]/qb-weapons
+	url = git@github.com:United-QB/qb-weapons
+[submodule "resources/[qb]/qb-scrapyard"]
+	path = resources/[qb]/qb-scrapyard
+	url = git@github.com:United-QB/qb-scrapyard
+[submodule "resources/[qb]/qb-tunerchip"]
+	path = resources/[qb]/qb-tunerchip
+	url = git@github.com:United-QB/qb-tunerchip
+[submodule "resources/[qb]/qb-towjob"]
+	path = resources/[qb]/qb-towjob
+	url = git@github.com:United-QB/qb-towjob
+[submodule "resources/[qb]/qb-streetraces"]
+	path = resources/[qb]/qb-streetraces
+	url = git@github.com:United-QB/qb-streetraces
+[submodule "resources/[qb]/qb-storerobbery"]
+	path = resources/[qb]/qb-storerobbery
+	url = git@github.com:United-QB/qb-storerobbery
+[submodule "resources/[qb]/qb-spawn"]
+	path = resources/[qb]/qb-spawn
+	url = git@github.com:United-QB/qb-spawn
+[submodule "resources/[qb]/qb-skillbar"]
+	path = resources/[qb]/qb-skillbar
+	url = git@github.com:United-QB/qb-skillbar
+[submodule "resources/[qb]/qb-smallresources"]
+	path = resources/[qb]/qb-smallresources
+	url = git@github.com:United-QB/qb-smallresources
+[submodule "resources/[qb]/qb-recyclejob"]
+	path = resources/[qb]/qb-recyclejob
+	url = git@github.com:United-QB/qb-recyclejob
+[submodule "resources/[qb]/qb-diving"]
+	path = resources/[qb]/qb-diving
+	url = git@github.com:United-QB/qb-diving
+[submodule "resources/[qb]/qb-cityhall"]
+	path = resources/[qb]/qb-cityhall
+	url = git@github.com:United-QB/qb-cityhall
+[submodule "resources/[qb]/qb-anticheat"]
+	path = resources/[qb]/qb-anticheat
+	url = git@github.com:United-QB/qb-anticheat
+[submodule "resources/[qb]/qb-truckrobbery"]
+	path = resources/[qb]/qb-truckrobbery
+	url = git@github.com:United-QB/qb-truckrobbery
+[submodule "resources/[qb]/qb-pawnshop"]
+	path = resources/[qb]/qb-pawnshop
+	url = git@github.com:United-QB/qb-pawnshop
+[submodule "resources/[qb]/qb-taxijob"]
+	path = resources/[qb]/qb-taxijob
+	url = git@github.com:United-QB/qb-taxijob
+[submodule "resources/[qb]/qb-busjob"]
+	path = resources/[qb]/qb-busjob
+	url = git@github.com:United-QB/qb-busjob
+[submodule "resources/[qb]/qb-newsjob"]
+	path = resources/[qb]/qb-newsjob
+	url = git@github.com:United-QB/qb-newsjob
+[submodule "resources/[qb]/qb-jewelery"]
+	path = resources/[qb]/qb-jewelery
+	url = git@github.com:United-QB/qb-jewelery
+[submodule "resources/[qb]/qb-bankrobbery"]
+	path = resources/[qb]/qb-bankrobbery
+	url = git@github.com:United-QB/qb-bankrobbery
+[submodule "resources/[qb]/qb-truckerjob"]
+	path = resources/[qb]/qb-truckerjob
+	url = git@github.com:United-QB/qb-truckerjob
+[submodule "resources/[qb]/qb-keyminigame"]
+	path = resources/[qb]/qb-keyminigame
+	url = git@github.com:United-QB/qb-keyminigame
+[submodule "resources/[qb]/qb-fitbit"]
+	path = resources/[qb]/qb-fitbit
+	url = git@github.com:United-QB/qb-fitbit
+[submodule "resources/[qb]/qb-commandbinding"]
+	path = resources/[qb]/qb-commandbinding
+	url = git@github.com:United-QB/qb-commandbinding
+[submodule "resources/[qb]/qb-banking"]
+	path = resources/[qb]/qb-banking
+	url = git@github.com:United-QB/qb-banking
+[submodule "resources/[qb]/qb-clothing"]
+	path = resources/[qb]/qb-clothing
+	url = git@github.com:United-QB/qb-clothing
+[submodule "resources/[qb]/qb-hotdogjob"]
+	path = resources/[qb]/qb-hotdogjob
+	url = git@github.com:United-QB/qb-hotdogjob
+[submodule "resources/[qb]/qb-doorlock"]
+	path = resources/[qb]/qb-doorlock
+	url = git@github.com:United-QB/qb-doorlock
+[submodule "resources/[qb]/qb-garbagejob"]
+	path = resources/[qb]/qb-garbagejob
+	url = git@github.com:United-QB/qb-garbagejob
+[submodule "resources/[qb]/qb-drugs"]
+	path = resources/[qb]/qb-drugs
+	url = git@github.com:United-QB/qb-drugs
+[submodule "resources/[qb]/qb-shops"]
+	path = resources/[qb]/qb-shops
+	url = git@github.com:United-QB/qb-shops
+[submodule "resources/[qb]/qb-lockpick"]
+	path = resources/[qb]/qb-lockpick
+	url = git@github.com:United-QB/qb-lockpick
+[submodule "resources/[qb]/qb-interior"]
+	path = resources/[qb]/qb-interior
+	url = git@github.com:United-QB/qb-interior
+[submodule "resources/[qb]/qb-menu"]
+	path = resources/[qb]/qb-menu
+	url = git@github.com:United-QB/qb-menu
+[submodule "resources/[qb]/qb-input"]
+	path = resources/[qb]/qb-input
+	url = git@github.com:United-QB/qb-input
+[submodule "resources/[qb]/qb-loading"]
+	path = resources/[qb]/qb-loading
+	url = git@github.com:United-QB/qb-loading
+[submodule "resources/[cfx-default]"]
+	path = resources/[cfx-default]
+	url = git@github.com:United-QB/cfx-server-data.git
