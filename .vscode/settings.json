@@ -1,9 +1,11 @@
 {
+    // General
     "editor.tabSize": 4,
     "files.trimTrailingWhitespace": true,
     "files.trimFinalNewlines": true,
     "editor.detectIndentation": false,
 
+    // Lua intellisense
     "Lua.diagnostics.enable": true,
     "Lua.runtime.nonstandardSymbol": ["/**/", "`", "+=", "-=", "*=", "/="],
     "Lua.runtime.plugin": "{{YOUR DIRECTORY}}/plugin.lua",
@@ -25,5 +27,28 @@
     ],
     "Lua.workspace.checkThirdParty": false,
     "Lua.telemetry.enable": false,
-    "Lua.diagnostics.globals": ["source"]
+    "Lua.diagnostics.globals": ["source"],
+
+    // Run on save
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": ".lua",
+                "cmd": "${workspaceFolder}\\.vscode\\resource.bat ${relativeFile} ${workspaceFolder}"
+            },
+            {
+                "match": ".js",
+                "cmd": "${workspaceFolder}\\.vscode\\resource.bat ${relativeFile} ${workspaceFolder}"
+            },
+            {
+                "match": ".html",
+                "cmd": "${workspaceFolder}\\.vscode\\resource.bat ${relativeFile} ${workspaceFolder}"
+            },
+            {
+                "match": ".cs",
+                "cmd": "${workspaceFolder}\\.vscode\\resource.bat ${relativeFile} ${workspaceFolder}"
+            },
+
+      ]
+    }
 }

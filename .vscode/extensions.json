@@ -1,7 +1,8 @@
 {
     "recommendations": [
-        "fivem-vscode.fivem-vscode",
-        "ihyajb.qbcore-code-snippets",
-        "sumneko.lua",
+        "fivem-vscode.fivem-vscode",   // For fivem natives snippets
+        "ihyajb.qbcore-code-snippets", // For qbcore snippets
+        "sumneko.lua",                 // For lint / intellisense
+        "emeraldwalk.RunOnSave",       // For command runned on save
     ]
 }
