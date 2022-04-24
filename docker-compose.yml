@@ -1,0 +1,34 @@
+version: "3.8"
+
+services:
+  fivem:
+    build:
+      context: .
+      dockerfile: Dockerfile.fivem
+      args:
+        FX_VERSION: https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/5402-810a639673d8da03fe4b1dc2b922c9c0265a542e/fx.tar.xz
+    restart: always
+    tty: true
+    stdin_open: true
+    volumes:
+      - ./:/opt/cfx-server/data
+    ports:
+      - "30126:30126/udp"
+      - "30126:30126/tcp"
+    environment:
+      TZ: "Europe/Paris"
+    entrypoint: /opt/cfx-server/ld-musl-x86_64.so.1 --library-path "/usr/lib/v8/:/lib/:/usr/lib/" --
+    working_dir: /opt/cfx-server/data
+    command: /opt/cfx-server/FXServer +set citizen_dir /opt/cfx-server/citizen/ +exec server.cfg
+    depends_on:
+      - database
+
+  database:
+    image: mariadb
+    restart: always
+    environment:
+      MARIADB_ROOT_PASSWORD: my-secret-pw
+      MARIADB_DATABASE: QBCore
+    volumes:
+      - ./db:/var/lib/mysql
+      - ./sql:/docker-entrypoint-initdb.d/
