@@ -4,13 +4,12 @@ RUN curl https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/5181
 
 FROM scratch
 COPY --from=dwnld /srv/alpine/. /.
+
+COPY run.sh /opt/cfx-server
 RUN apk update && \
     apk add --no-cache tzdata
 
 RUN mkdir -p /usr/local/share/ && touch /usr/local/share/.yarnrc
 
-EXPOSE 30120/tcp 30120/udp 40120/tcp
-
 WORKDIR /opt/cfx-server
-ENTRYPOINT ""
-CMD ""
+CMD ["sh", "run.sh"]

@@ -17,9 +17,7 @@ services:
       - "30126:30126/tcp"
     environment:
       TZ: "Europe/Paris"
-    entrypoint: /opt/cfx-server/ld-musl-x86_64.so.1 --library-path "/usr/lib/v8/:/lib/:/usr/lib/" --
     working_dir: /opt/cfx-server/data
-    command: /opt/cfx-server/FXServer +set citizen_dir /opt/cfx-server/citizen/ +exec server.cfg
     depends_on:
       - database
 
